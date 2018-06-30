@@ -3,8 +3,8 @@ plugins {
     id "idea"
     id "jaci.openrio.gradle.GradleRIO" version "2018.01.22"
 }
-def TEAM = 2767
-def ROBOT_CLASS = "org.strykeforce.quickstart.Robot"
+def TEAM = 6364
+def ROBOT_CLASS = "org.team6364.Robot"
 
 // Define my targets (RoboRIO) and artifacts (deployable files)
 // This is added by GradleRIO's backing project EmbeddedTools.
@@ -27,6 +27,7 @@ dependencies {
     compile wpilib()
     compile ctre()
     compile navx()
+    compile pathfinder()
 }
 
 // Setting up my Jar File. In this case, adding all libraries into the main jar ('fat jar')
