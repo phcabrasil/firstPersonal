@@ -5,7 +5,7 @@
 /* the project.                                                               */
 /*----------------------------------------------------------------------------*/
 
-package org.usfirst.frc.team6364.robot; //THIS DOES NOT WORK
+package org.usfirst.frc.team6364.robot;
 
 import org.usfirst.frc.team6364.robot.subsystems.driveBase;
 

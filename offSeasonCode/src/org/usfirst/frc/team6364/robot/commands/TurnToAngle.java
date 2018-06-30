@@ -32,7 +32,7 @@ public class TurnToAngle extends Command {
 		} else {
 			count = 0;
 		}
-	}
+	\]
 
 	protected boolean isFinished() { // Tell if it's finished
 		return isFinished;
